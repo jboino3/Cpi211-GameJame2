@@ -375,6 +375,71 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 399516f94c16f3a4ea5fb2f6b4759ce1, type: 3}
+--- !u!1001 &303566826
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 295772245803576535, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 295772245803576535, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035204401668770033, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_Name
+      value: UI Game Jam 2  Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.995029
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.871834
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
 --- !u!1001 &409285407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2010,3 +2075,4 @@ SceneRoots:
   - {fileID: 225813372}
   - {fileID: 1013193745}
   - {fileID: 829719716}
+  - {fileID: 303566826}

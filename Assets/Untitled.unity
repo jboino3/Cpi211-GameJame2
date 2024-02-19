@@ -411,6 +411,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8638310791692739985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 295772245803576535, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 295772245803576535, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035204401668770033, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_Name
+      value: 'UI Game Jam 2 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 450.2624
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 193.79114
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.954063
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968751330412273155, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 568a11e086ad54912a44218173e4a68b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -418,3 +483,4 @@ SceneRoots:
   - {fileID: 1782528433}
   - {fileID: 1592072449}
   - {fileID: 1690356434}
+  - {fileID: 8638310791692739985}
