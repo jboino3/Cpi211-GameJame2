@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a7fff0604d7a4217adcf43b00f77d56
+timeCreated: 1487541720
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34608
+  packageName: PBR Barrels and Crates
+  packageVersion: 1.8
+  assetPath: Assets/PBS Barrels and Crates/demo scene/Skybox.mat
+  uploadId: 521233

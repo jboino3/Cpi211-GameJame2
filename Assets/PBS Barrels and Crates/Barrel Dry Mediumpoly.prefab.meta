@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6c88f13e6ee82414595ce8cff7d2093e
+labels:
+- Barrel
+- Wood
+- Wooden
+- Old
+- Weathered
+timeCreated: 1466076535
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34608
+  packageName: PBR Barrels and Crates
+  packageVersion: 1.8
+  assetPath: Assets/PBS Barrels and Crates/Barrel Dry Mediumpoly.prefab
+  uploadId: 521233

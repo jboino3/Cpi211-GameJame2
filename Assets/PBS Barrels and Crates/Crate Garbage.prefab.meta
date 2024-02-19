@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 18d0b6ee1f2e9b8438585e4a6dae2921
+labels:
+- Crate
+- Metal
+- Steel
+- Worn
+- Weathered
+- Rust
+- Rusted
+- Strong
+timeCreated: 1435624244
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34608
+  packageName: PBR Barrels and Crates
+  packageVersion: 1.8
+  assetPath: Assets/PBS Barrels and Crates/Crate Garbage.prefab
+  uploadId: 521233

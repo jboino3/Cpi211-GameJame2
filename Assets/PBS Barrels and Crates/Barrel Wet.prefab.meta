@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ac5ff7272f7402247a04db6a1e2b4401
+labels:
+- Barrel
+- Wood
+- Wooden
+- Old
+- Weathered
+timeCreated: 1429478362
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34608
+  packageName: PBR Barrels and Crates
+  packageVersion: 1.8
+  assetPath: Assets/PBS Barrels and Crates/Barrel Wet.prefab
+  uploadId: 521233

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d08ee49efa97244df84e90c3e43c597a
+timeCreated: 1545442298
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34608
+  packageName: PBR Barrels and Crates
+  packageVersion: 1.8
+  assetPath: Assets/PBS Barrels and Crates/HazmatBarrel_broken.prefab
+  uploadId: 521233

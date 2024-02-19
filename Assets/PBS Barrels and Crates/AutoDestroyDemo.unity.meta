@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1de8e3a334d4448eb85772bdf62cc684
+timeCreated: 1487989158
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34608
+  packageName: PBR Barrels and Crates
+  packageVersion: 1.8
+  assetPath: Assets/PBS Barrels and Crates/AutoDestroyDemo.unity
+  uploadId: 521233

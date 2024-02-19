@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c45abea50a99b4f76aa96d9976c3e0b8
+timeCreated: 1487943305
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34608
+  packageName: PBR Barrels and Crates
+  packageVersion: 1.8
+  assetPath: Assets/PBS Barrels and Crates/demo scene/wrecking_Ball.mat
+  uploadId: 521233
