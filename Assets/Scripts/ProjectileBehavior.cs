@@ -21,9 +21,19 @@ public class ProjectileBehavior : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        // Check if the GameObject is not the player
         if (!other.CompareTag("Player")) // Ensure your player GameObject is tagged "Player"
         {
-            Destroy(gameObject);
+            Debug.Log("Collision! (GENERIC)");
+
+            // Check if the collided object is a "Barrel" or a clone of it
+            if (other.gameObject.name.StartsWith("Barrel"))
+            {
+                Debug.Log("Collision! (BARREL)");
+                Destroy(other.gameObject); // Destroy the barrel
+            }
+
+            Destroy(gameObject); // Destroy the projectile itself
         }
     }
 
