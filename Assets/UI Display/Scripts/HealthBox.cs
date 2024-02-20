@@ -27,5 +27,15 @@ public class HealthBox : MonoBehaviour
    {
     currentHealth -= damage; 
     healthBar.SetHealth(currentHealth);
+
+        if (damage >= currentHealth)
+        {
+            currentHealth = 0;
+            Destroy(gameObject);
+        }
+        else
+            currentHealth -= damage;
    }
+
+
 }
