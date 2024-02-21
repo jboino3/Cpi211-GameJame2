@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Title.unity
-    guid: 2969f0dbefc5a4faca727aff896b8f14
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5add8cfc953654e328c3d7dc02f587e8
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/backu.unity
     guid: 2640f1ffad794274c8059401abfa581c
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 5add8cfc953654e328c3d7dc02f587e8
+    path: Assets/Title.unity
+    guid: 2969f0dbefc5a4faca727aff896b8f14
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
