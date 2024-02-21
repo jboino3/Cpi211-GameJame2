@@ -16,6 +16,6 @@ public class PlayerCollision : MonoBehaviour
     void GameOver()
     {
         PlayerLevelManager.Instance.ResetPlayer();
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Title");
     }
 }
