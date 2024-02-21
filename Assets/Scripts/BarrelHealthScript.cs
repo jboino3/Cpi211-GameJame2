@@ -18,6 +18,7 @@ public class BarrelHealthScript : MonoBehaviour
         healthTextObject = Instantiate(healthTextPrefab, FindAnyObjectByType<Canvas>().transform);
         healthText = healthTextObject.GetComponent<Text>();
         UpdateHealthText();
+        UpdateHealthTextPosition();
     }
 
     // Update is called once per frame

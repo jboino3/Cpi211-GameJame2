@@ -28,7 +28,7 @@ public class ProjectileBehavior : MonoBehaviour
                 BarrelHealthScript barrelHealth = other.GetComponent<BarrelHealthScript>();
                 if (barrelHealth != null)
                 {
-                    Debug.Log("BARREL COLLISION!");
+                    //Debug.Log("BARREL COLLISION!");
                     barrelHealth.TakeDamage(PlayerLevelManager.Instance.damage);
                 }
             }
