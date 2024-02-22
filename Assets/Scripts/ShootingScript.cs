@@ -6,11 +6,19 @@ public class ShootingScript : MonoBehaviour
 {
     public GameObject projectilePrefab; // Assign in inspector
     public Transform shootingPoint; // Assign or create a point as child of player
-    public float shootingRate = 2f; // Projectiles per second
+    public float shootingRate = 5f; // Projectiles per second
     private float nextShootTime = 0f;
+
+    public PlayerLevelManager playerLevelManager;
 
     void Update()
     {
+        
+
+        if (playerLevelManager != null) {
+            shootingRate = 4f + PlayerLevelManager.Instance.currentLevel;
+        }
+
         if (Input.GetKey(KeyCode.Space) && Time.time >= nextShootTime)
         {
             ShootProjectile();

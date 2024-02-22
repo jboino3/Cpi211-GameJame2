@@ -6,8 +6,8 @@ public class BSpawner : MonoBehaviour
     public GameObject BPrefab; // Assign the barrel prefab in Unity 
 
     public float initialDelay = 2f;
-    public float minDelay = 0.5f;
-    public float maxDelay = 5f;
+    public float minDelay = 1.1f;
+    public float maxDelay = 2.5f;
     public float delayReductionRate = 0.1f;
     public float xRotation;
     public float yRotation;

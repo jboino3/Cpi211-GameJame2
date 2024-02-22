@@ -20,7 +20,7 @@ public class PlayerLevelManager : MonoBehaviour
     private void UpdateLevelXPDisplay()
     {
         if (levelXPText != null) 
-            levelXPText.text = $"Level: {currentLevel} | XP: {currentXP}/{xpTarget}";
+            levelXPText.text = $"DAMAGE: {currentLevel}                                              XP: {currentXP}/{xpTarget}";
     }
 
     private void Awake()
@@ -49,10 +49,12 @@ public class PlayerLevelManager : MonoBehaviour
     private void LevelUp()
     {
         currentLevel++;
-        damage++;
-        currentXP = 0; 
-        xpTarget += currentLevel * 10;
+        damage++; 
+        currentXP = 0;
+        xpTarget += 10;
         UpdateLevelXPDisplay();
+
+
     }
 
     public void ResetPlayer()

@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BarrelHealthScript : MonoBehaviour
 {
@@ -10,10 +8,10 @@ public class BarrelHealthScript : MonoBehaviour
     private GameObject healthTextObject;
     private Text healthText;
 
-    // Start is called before the first frame update
     void Start()
     {
-        health = Random.Range(GetMinHealth(), GetMaxHealth() + 1);
+        // Generate a random health value and truncate it to the nearest threshold
+        health = TruncateHealthToThreshold(Random.Range(GetMinHealth(), GetMaxHealth() + 1));
 
         healthTextObject = Instantiate(healthTextPrefab, FindAnyObjectByType<Canvas>().transform);
         healthText = healthTextObject.GetComponent<Text>();
@@ -21,7 +19,6 @@ public class BarrelHealthScript : MonoBehaviour
         UpdateHealthTextPosition();
     }
 
-    // Update is called once per frame
     void Update()
     {
         UpdateHealthTextPosition();
@@ -34,7 +31,7 @@ public class BarrelHealthScript : MonoBehaviour
 
     void UpdateHealthTextPosition()
     {
-        Vector3 screenPosition = Camera.main.WorldToScreenPoint(transform.position + new Vector3(0, 1, 0));
+        Vector3 screenPosition = Camera.main.WorldToScreenPoint(transform.position + new Vector3(0, 1, 0)); // Adjust Y offset as needed
         healthTextObject.transform.position = screenPosition;
     }
 
@@ -46,12 +43,30 @@ public class BarrelHealthScript : MonoBehaviour
         {
             Destroy(healthTextObject);
             Destroy(gameObject);
-            PlayerLevelManager.Instance.AddXP(1);
+            PlayerLevelManager.Instance.AddXP(1); // Assuming you want to add XP here
         }
     }
 
-    int GetMinHealth(){return Mathf.FloorToInt(1 + Time.timeSinceLevelLoad / 30);}
+    int GetMinHealth()
+    {
+        return Mathf.FloorToInt(5 + Time.timeSinceLevelLoad / 15);
+    }
 
-    int GetMaxHealth() { return Mathf.FloorToInt(5 + Time.timeSinceLevelLoad / 15); }
+    int GetMaxHealth()
+    { 
+        return Mathf.FloorToInt(23 + Time.timeSinceLevelLoad / 10);
+    }
 
+    int TruncateHealthToThreshold(int healthValue)
+    {
+        int[] thresholds = { 5, 10, 15, 25, 50, 100 };
+        for (int i = thresholds.Length - 1; i >= 0; i--)
+        {
+            if (healthValue >= thresholds[i])
+            {
+                return thresholds[i];
+            }
+        }
+        return 5;
+    }
 }
