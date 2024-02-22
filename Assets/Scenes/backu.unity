@@ -3121,7 +3121,7 @@ PrefabInstance:
       objectReference: {fileID: 316064674}
     - target: {fileID: 1023749612100029253, guid: 57d782b092a394ac8a623fcdcf8daf16, type: 3}
       propertyPath: shootingRate
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7148595783875298811, guid: 57d782b092a394ac8a623fcdcf8daf16, type: 3}
       propertyPath: xpTarget
